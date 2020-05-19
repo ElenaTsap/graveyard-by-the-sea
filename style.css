@@ -1,0 +1,336 @@
+body{
+    padding: 30px 0px 30px 0px;
+  }
+  
+  #nav{
+    margin-right: 40px;
+    margin-top: -25px;
+  }
+  
+  #front-active{
+    color: #D3B843;
+  }
+  
+  ul.a {
+    list-style-type: none;
+    line-height: 3em;
+    }
+  
+  a {
+    text-decoration: none;
+    color: #0E1626;
+    font-size: 24px;
+  }
+  
+  a:hover {
+    color: #D0111A;
+  }
+  
+  .text-link{
+    color: #D3B843;
+    font-size: 16px;
+    text-decoration: underline;
+  }
+  
+  #front-container{
+    display: flex;
+    justify-content: center;
+  }
+  
+  #book-container{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+  }
+
+  #spine-container {
+    width: 45px;
+    height: 700px;
+    background-color: #0E1626;
+    border-radius: 8px;
+   
+    margin: 0px 578px 0px 0px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  
+  #poet {
+    font-family: avenir;
+    font-weight: bold;
+    color: #d3b843;
+    text-align: center;
+    font-size: 10px;
+  
+    
+    margin-bottom: 60px;
+  
+  }
+  
+  #book_title {
+    font-family: 'Crimson Text', serif;
+    color: #d3b843;
+    text-align: right;
+    font-size: 18px;
+  
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+     
+    z-index: 100;
+  
+  
+    margin-bottom: 120px;
+    margin-right: 8px
+  }
+  
+  #date {
+    font-family: avenir;
+    font-weight: bold;
+    color: #d3b843;
+    text-align: center;
+    font-size: 10px;
+  
+    margin-top: 10px;
+  }
+  
+  #cover-container{
+    width: 530px;
+    height: 700px;
+    background-color: #0E1626;
+    border-radius: 8px;
+
+    position: absolute;
+    margin: auto;
+    z-index: -5;
+
+  }
+
+
+/* front cover shapes */
+  #circle{
+    width: 150px;
+    height: 150px;
+    background-color: #D0111A;
+    border: 1px solid #393737;
+    border-radius: 50%;
+    
+    position: absolute;
+    margin: auto;
+    top: 77px;
+    right: 118px;
+    bottom: 473px;
+    left: 262px;
+    z-index: -2;
+  }
+  
+  #rec1{
+    width: 35px;
+    height: 300px;
+    background-color: #002567;
+    border: 1px solid #393737;
+    
+    position: absolute;
+    margin: auto;
+    top: 333px;
+    right: 445px;
+    bottom: 67px;
+    left: 50px;
+    z-index: -2;
+  }
+  
+  #rec2{
+    width: 72px;
+    height: 104px;
+    background-color: #005183;
+    border: 1px solid #393737;
+    
+    position: absolute;
+    margin: auto;
+    top: 595px;
+    right: 384px;
+    bottom: 1px;
+    left: 74px;
+    z-index: -2;
+  }
+  
+  #rec3{
+    width: 42px;
+    height: 299px;
+    background-color: #00655F;
+    border: 1px solid #393737;
+    
+    position: absolute;
+    margin: auto;
+    top: 1px;
+    right: 385px;
+    bottom: 401px;
+    left: 103px;
+    z-index: -1;
+  }
+  
+  #rec4{
+    width: 39px;
+    height: 330px;
+    background-color: #002567;
+    border: 1px solid #393737;
+    
+    position: absolute;
+    margin: auto;
+    top: 224px;
+    right: 351px;
+    bottom: 146px;
+    left: 140px;
+    z-index: -2;
+  }
+  
+  #rec5{
+    width: 50px;
+    height: 371px;
+    background-color: #005183;
+    border: 1px solid #393737;
+    
+    position: absolute;
+    margin: auto;
+    top: 2px;
+    right: 238px;
+    bottom: 330px;
+    left: 242px;
+    z-index: -2;
+  }
+  
+  #rec6{
+    width: 59px;
+    height: 256px;
+    background-color: #002567;
+    border: 1px solid #393737;
+    
+    position: absolute;
+    margin: auto;
+    top: 443px;
+    right: 200px;
+    bottom: 1px;
+    left: 270px;
+    z-index: -2;
+  }
+  
+  #rec7{
+    width: 29px;
+    height: 336px;
+    background-color: #00655F;
+    border: 1px solid #393737;
+    
+    position: absolute;
+    margin: auto;
+    top: 153px;
+    right: 158px;
+    bottom: 211px;
+    left: 343px;
+    z-index: -2;
+  }
+  
+  #rec8{
+    width: 48px;
+    height: 326px;
+    background-color: #002567;
+    border: 1px solid #393737;
+    
+    position: absolute;
+    margin: auto;
+    top: 87px;
+    right: 78px;
+    bottom: 287px;
+    left: 404px;
+    z-index: -1;
+  }
+  
+  #rec9{
+    width: 44px;
+    height: 332px;
+    background-color: #005183;
+    border: 1px solid #393737;
+    
+    position: absolute;
+    margin: auto;
+    top: 344px;
+    right: 39px;
+    bottom: 24px;
+    left: 447px;
+    z-index: -2;
+  }
+  
+  .cls-2 {
+    fill: none;
+    stroke: #d3b843;
+    stroke-linecap: round;
+    stroke-width: 2.5px;
+    z-index: 5;
+  
+    
+    animation: linecolor 2s infinite;
+    animation-direction: alternate;
+    
+  }
+  
+  @keyframes linecolor {
+    from {stroke: #d3b843;}
+    to {stroke: #ffffff;}
+  }
+
+
+/* poem */
+  #poem-container{
+    width: 530px;
+    height: 700px;
+    background-color: transparent;
+
+    position: absolute;
+    margin: auto;
+  }
+  
+  h1{
+   font-family: 'Crimson Text', serif;
+   font-weight: 700;
+   font-size: 24px;
+   margin-bottom: -0.5em;
+  }
+  
+  h2{
+   font-family: 'Crimson Text', serif;
+   font-weight: 400;
+   font-size: 16px;
+   margin-bottom: 4em;
+  }
+  
+  #poem {
+   font-family: 'Crimson Text', serif;
+   font-weight: 400;
+    
+    color: #0E1626;
+    font-size: 24px; 
+    margin-top: -20px;
+    position: absolute;
+  
+  }
+
+
+
+/* back cover */
+  #backcover-container{
+    width: 530px;
+    height: 700px;
+    background-color: #0E1626;
+    border-radius: 8px;
+   
+  }
+
+  #backcover-text {
+    font-family: 'Crimson Text', serif;
+    font-weight: 400;
+     
+     color: #d3b843;
+     font-size: 16px; 
+     padding: 50px;
+   }
+     
+        

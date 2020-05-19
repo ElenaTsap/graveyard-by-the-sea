@@ -1,9 +1,9 @@
 body{
-    padding: 30px 0px 30px 0px;
+    padding: 60px 0px 60px 0px;
   }
   
   #nav{
-    margin-right: 40px;
+    margin-right: 60px;
     margin-top: -25px;
   }
   
@@ -313,6 +313,28 @@ body{
   
   }
 
+  #myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 60px;
+    z-index: 99;
+    border-color:#0E1626;
+    border-width: 0px;
+    background-color: transparent;
+    font-family: 'Crimson Text', serif;
+    color:#0E1626; 
+    cursor: pointer;
+    padding: 10px; 
+    margin-bottom: 40px;
+    margin-right: 80px;
+    border-radius: 5px; 
+    font-size: 24px; 
+  }
+  
+  #myBtn:hover {
+    color: #D0111A; /* Add a dark-grey background on hover */
+  }
 
 
 /* back cover */
@@ -333,4 +355,3 @@ body{
      padding: 50px;
    }
      
-        

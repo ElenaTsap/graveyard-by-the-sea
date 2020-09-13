@@ -1,7 +1,7 @@
 # Graveyard by the sea 
 
-## Fields: UI/UX Design, Coding
-## Tools: Adobe XD, Adobe Illustrator, Brackets
+#### Fields: UI/UX Design, Coding
+#### Tools: Adobe XD, Adobe Illustrator, Brackets
 
 Digital interpretation of a [book binding](http://www.sothebys.com/en/auctions/ecatalogue/2013/livres-manuscrits-pf1313/lot.187.html) signed by [Paul Bonet](http://www.capc-bordeaux.fr/en/program/paul-bonet) in 1956, for the poem [“Le Cimetiére Marin”](https://intranslation.brooklynrail.org/french/the-graveyard-by-the-sea/), written by [Paul Valéry](https://en.wikipedia.org/wiki/Paul_Val%C3%A9ry) in 1920.
 
